@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1713939376 source:d:\laptopcode\game\game\background.cpp
+	"Background.h"
+
+1713938650 d:\laptopcode\game\game\background.h
+	"Object.h"
+
+1713938650 d:\laptopcode\game\game\object.h
+	"TextureManager.h"
+
+1713938651 d:\laptopcode\game\game\texturemanager.h
+	<SDL.h>
+	<SDL_image.h>
+
+1713939636 source:d:\laptopcode\game\game\gameloop.cpp
+	"GameLoop.h"
+
+1713938650 d:\laptopcode\game\game\gameloop.h
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManager.h"
+	"Background.h"
+	"Player.h"
+	<bits/stdc++.h>
+
+1713938650 d:\laptopcode\game\game\player.h
+	"Object.h"
+
+1713939646 source:d:\laptopcode\game\game\main.cpp
+	"Gameloop.h"
+
+1713938650 source:d:\laptopcode\game\game\object.cpp
+	"Object.h"
+
+1713938650 source:d:\laptopcode\game\game\player.cpp
+	"Player.h"
+
+1713938651 source:d:\laptopcode\game\game\texturemanager.cpp
+	"TextureManager.h"
+
+1713939646 source:d:\laptopcode\sdl2\flappy\main.cpp
+	"Gameloop.h"
+
+1713938650 d:\laptopcode\sdl2\flappy\gameloop.h
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManager.h"
+	"Background.h"
+	"Player.h"
+	<bits/stdc++.h>
+
+1713938651 d:\laptopcode\sdl2\flappy\texturemanager.h
+	<SDL.h>
+	<SDL_image.h>
+
+1713938650 d:\laptopcode\sdl2\flappy\background.h
+	"Object.h"
+
+1713938650 d:\laptopcode\sdl2\flappy\object.h
+	"TextureManager.h"
+
+1713938650 d:\laptopcode\sdl2\flappy\player.h
+	"Object.h"
+
