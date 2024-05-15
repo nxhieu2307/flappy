@@ -1,64 +1,107 @@
 # depslib dependency file v1.0
-1713939376 source:d:\laptopcode\game\game\background.cpp
+1715609134 source:d:\laptopcode\sdl2\flappy\background.cpp
 	"Background.h"
 
-1713938650 d:\laptopcode\game\game\background.h
+1715604376 d:\laptopcode\sdl2\flappy\background.h
 	"Object.h"
 
-1713938650 d:\laptopcode\game\game\object.h
+1715273162 d:\laptopcode\sdl2\flappy\object.h
 	"TextureManager.h"
 
-1713938651 d:\laptopcode\game\game\texturemanager.h
+1715273174 d:\laptopcode\sdl2\flappy\texturemanager.h
 	<SDL.h>
 	<SDL_image.h>
 
-1713939636 source:d:\laptopcode\game\game\gameloop.cpp
+1715619998 source:d:\laptopcode\sdl2\flappy\base.cpp
+	"Base.h"
+
+1715436427 d:\laptopcode\sdl2\flappy\base.h
+	"Object.h"
+
+1715437979 source:d:\laptopcode\sdl2\flappy\collisionmanager.cpp
+	"CollisionManager.h"
+
+1715437841 d:\laptopcode\sdl2\flappy\collisionmanager.h
+	<SDL.h>
+	<SDL_image.h>
+
+1715699612 source:d:\laptopcode\sdl2\flappy\endwindow.cpp
+	"EndWindow.h"
+
+1715612300 d:\laptopcode\sdl2\flappy\endwindow.h
+	"Background.h"
+
+1715700954 source:d:\laptopcode\sdl2\flappy\main.cpp
+	"Gameloop.h"
+
+1715701154 d:\laptopcode\sdl2\flappy\gameloop.h
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"TextManager.h"
+	"TextureManager.h"
+	"Music.h"
+	"Background.h"
+	"Player.h"
+	"Pipe.h"
+	"Base.h"
+	"Mainmenu.h"
+	"EndWindow.h"
+	"Pause.h"
+	"CollisionManager.h"
+
+1715590351 d:\laptopcode\sdl2\flappy\textmanager.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<bits/stdc++.h>
+
+1715699732 d:\laptopcode\sdl2\flappy\music.h
+	<SDL_mixer.h>
+	<string>
+
+1715622203 d:\laptopcode\sdl2\flappy\player.h
+	"Object.h"
+
+1715620934 d:\laptopcode\sdl2\flappy\pipe.h
+	"Object.h"
+
+1715603998 d:\laptopcode\sdl2\flappy\mainmenu.h
+	<SDL.h>
+	<SDL_image.h>
+	"Background.h"
+
+1715697811 d:\laptopcode\sdl2\flappy\pause.h
+	"Background.h"
+
+1715699682 source:d:\laptopcode\sdl2\flappy\mainmenu.cpp
+	"Mainmenu.h"
+
+1715682166 source:d:\laptopcode\sdl2\flappy\music.cpp
+	"Music.h"
+	<bits/stdc++.h>
+
+1714733707 source:d:\laptopcode\sdl2\flappy\object.cpp
+	"Object.h"
+
+1715697922 source:d:\laptopcode\sdl2\flappy\pause.cpp
+	"Pause.h"
+
+1715621121 source:d:\laptopcode\sdl2\flappy\pipe.cpp
+	"Pipe.h"
+	<bits/stdc++.h>
+
+1715622794 source:d:\laptopcode\sdl2\flappy\player.cpp
+	<iostream>
+	"Player.h"
+
+1715666735 source:d:\laptopcode\sdl2\flappy\textmanager.cpp
+	"TextManager.h"
+
+1715539445 source:d:\laptopcode\sdl2\flappy\texturemanager.cpp
+	"TextureManager.h"
+
+1715701203 source:d:\laptopcode\sdl2\flappy\gameloop.cpp
 	"GameLoop.h"
-
-1713938650 d:\laptopcode\game\game\gameloop.h
-	<SDL.h>
-	<SDL_image.h>
-	"TextureManager.h"
-	"Background.h"
-	"Player.h"
-	<bits/stdc++.h>
-
-1713938650 d:\laptopcode\game\game\player.h
-	"Object.h"
-
-1713939646 source:d:\laptopcode\game\game\main.cpp
-	"Gameloop.h"
-
-1713938650 source:d:\laptopcode\game\game\object.cpp
-	"Object.h"
-
-1713938650 source:d:\laptopcode\game\game\player.cpp
-	"Player.h"
-
-1713938651 source:d:\laptopcode\game\game\texturemanager.cpp
-	"TextureManager.h"
-
-1713939646 source:d:\laptopcode\sdl2\flappy\main.cpp
-	"Gameloop.h"
-
-1713938650 d:\laptopcode\sdl2\flappy\gameloop.h
-	<SDL.h>
-	<SDL_image.h>
-	"TextureManager.h"
-	"Background.h"
-	"Player.h"
-	<bits/stdc++.h>
-
-1713938651 d:\laptopcode\sdl2\flappy\texturemanager.h
-	<SDL.h>
-	<SDL_image.h>
-
-1713938650 d:\laptopcode\sdl2\flappy\background.h
-	"Object.h"
-
-1713938650 d:\laptopcode\sdl2\flappy\object.h
-	"TextureManager.h"
-
-1713938650 d:\laptopcode\sdl2\flappy\player.h
-	"Object.h"
 

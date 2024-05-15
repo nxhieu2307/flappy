@@ -1,8 +1,11 @@
 #include "Background.h"
 
-void Background::Render(SDL_Renderer* ren)
+void Background::Render(SDL_Renderer *ren)
 {
-    SDL_Rect srca = getSrc();
-	SDL_Rect destb = getDest();
-    SDL_RenderCopy(ren , getTexture(), &srca, &destb);
+	SDL_RenderCopy(ren, getTexture(), NULL, NULL);
+}
+
+void Background::CreateTexture1(const char* address, SDL_Renderer* ren)
+{
+    Tex1 = TextureManager::Texture(address, ren);
 }
